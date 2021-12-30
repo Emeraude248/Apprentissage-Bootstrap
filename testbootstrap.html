@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 exemple</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container pt-5">
+        <!--paddingtop 5 je sais pas quoi-->
+        <p> Test du container</p>
+        <p>responsivité de mise grace à la class container</p>
+        <p>.container <br>
+            amuse-toi à changer la taille de la fenêtre pour voir la responsivité
+        </p>
+    </div>
+
+    <div class="container-fluid text-primary">
+        <p>La fuidité c'est bien, c'est sensé prendre toute la place de la largeur de l'écran, donc je fais un grand texte pour voir si ça marche vraiment. Qu'est-ce qu'on s'éclate en développemnt, faut pas mal d'imagination et de créativité n'empêche ^^</p>
+        <p>Ca marche, 'tain je sais pas comment faire le ç en majuscule de par le clavier :( </p>
+        <p>On aime fort. Youhou !</p>
+
+    </div>
+    <div class="container">
+        <p>
+            test du .container genre le basic, ça fait quoi par rapport aux deux autres, 
+            parce que le pt-5 a des marge que le fluid n'a pas, en même temps, il est fluid... 
+            celui-ci aura normalement des marges ^^<br>
+            Il en a V!
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">colonne1</div>
+            <div class="col text-center">clonne2</div>
+            <div class="col text-center">clone3 mdr</div>
+        </div>
+    </div>
+
+    <div class="container-sm">
+        <!-- sm change la taille max du container selon la taille de l'écran, responsive !!!-->
+        <table class="table table-bordered">
+            <thead class="table-success">
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Mail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Aude</td>
+                    <td>Riem</td>
+                    <td>aude.riem@sfr.fr</td>
+                </tr>
+
+                <tr>
+                    <td>Emeraude</td>
+                    <td>la même</td>
+                    <td>aude.r@gmx.fr</td>
+                </tr>
+
+                <tr>
+                    <td>Nita</td>
+                    <td>Kovit</td>
+                    <td>emeraudekleidouchos@gmail.com</td>
+                </tr>
+
+            </tbody>
+        </table>
+    <!--premier tableau, mais qu'il est beau !!!
+    tr = ligne
+    th = cellule d'en tête (thead)
+    td = cellule standard-->
+    </div>
+</body>
+</html>
